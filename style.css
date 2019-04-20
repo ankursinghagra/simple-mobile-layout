@@ -1,0 +1,90 @@
+
+* {
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+input {
+-webkit-user-select: auto !important;
+-khtml-user-select: auto !important;
+-moz-user-select: auto !important;
+-ms-user-select: auto !important;
+user-select: auto !important;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+body {
+    margin: 0
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+	margin: 0;
+}
+h1,
+.h1 {
+    font-size: 39px
+}
+
+h2,
+.h2 {
+    font-size: 32px
+}
+
+h3,
+.h3 {
+    font-size: 26px
+}
+
+h4,
+.h4 {
+    font-size: 19px
+}
+
+h5,
+.h5 {
+    font-size: 15px
+}
+
+h6,
+.h6 {
+    font-size: 13px
+}
+
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.wrapper{
+	height: 100vh;
+	overflow-y: hidden;
+}
+.wrapper .navbar-top{
+	height: 60px;
+}
+.wrapper .content{
+	height: calc(100vh - 120px);
+	overflow-y: auto;
+}
+.wrapper .navbar-bottom{
+	height: 60px;
+}
