@@ -21,7 +21,7 @@ html {
     -webkit-text-size-adjust: 100%
 }
 body {
-    margin: 0
+    margin: 0;
 }
 h1,
 h2,
@@ -32,37 +32,18 @@ h6,
 p{
 	margin: 0;
 }
-h1,
-.h1 {
-    font-size: 39px
+
+
+a{
+	color: #000000;
+	text-decoration: none;
 }
 
-h2,
-.h2 {
-    font-size: 32px
+a:hover,
+a:focus{
+	color: #000000;
+	text-decoration: none;
 }
-
-h3,
-.h3 {
-    font-size: 26px
-}
-
-h4,
-.h4 {
-    font-size: 19px
-}
-
-h5,
-.h5 {
-    font-size: 15px
-}
-
-h6,
-.h6 {
-    font-size: 13px
-}
-
-
 
 body {
     padding: 0px;
@@ -80,6 +61,28 @@ body {
 }
 .wrapper .navbar-top{
 	height: 60px;
+	width: 100%;
+	display: block;
+	-webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
+}
+.wrapper .navbar-top .left-block{
+	display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+}
+.wrapper .navbar-top .middle-block{
+	display: inline-block;
+	width: calc(100% - 115px);
+	height: 30px;
+	margin-top: 15px;
+}
+.wrapper .navbar-top .right-block{
+	display: inline-block;
+    padding: 15px;
+    float: right;
+    font-size: 20px;
 }
 .wrapper .content{
 	height: calc(100vh - 120px);
@@ -87,4 +90,15 @@ body {
 }
 .wrapper .navbar-bottom{
 	height: 60px;
+	padding: 10px 0px;
+	-webkit-box-shadow: 0px -1px 10px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px -1px 10px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px -1px 10px 0px rgba(0,0,0,0.15);
 }
+.wrapper .navbar-bottom .link{
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+}
+.wrapper .navbar-bottom .link i{display: block;font-size: 25px;}
+.wrapper .navbar-bottom .link span{display: block;}
